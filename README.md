@@ -29,7 +29,7 @@ The `main.cpp` file at the root of the project must have a corresponding entry i
 
 ## Running Benchmarks
 
-Benchmarking is provided with Catch2. You can write benchmarking assertions alongside test assertions right in your test files.
+We will not be benchmarking any code in this lab. You do not have to run any benchmarks with Catch2.
 
 [catch2]: https://github.com/catchorg/Catch2
 [cmake]: https://cmake.org/
