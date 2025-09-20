@@ -1,59 +1,34 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c++,cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake
-
-### C++ ###
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-### CMake ###
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-
-### CMake Patch ###
-CMakeUserPresets.json
-
-# External projects
-*-prefix/
-
-# End of https://www.toptal.com/developers/gitignore/api/c++,cmake
-
+# Build directories
 build/
+CMakeFiles/
+CMakeCache.txt
+CMakeConfigureLog.yaml
+Makefile
+Makefile2
+cmake_install.cmake
+TargetDirectories.txt
+cmake.check_cache
+progress.marks
+*.dir
+
+# Compiled executables
+main
+test
+monopoly_main
+monopoly_test
+circular_list_test
+factorial_test
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+_deps/
